@@ -27,6 +27,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         //request authorization for postitioning
         locationManager?.requestAlwaysAuthorization()
         
+        //Speak when app starts
         let utterance = AVSpeechUtterance(string:"Touch the middle of the screen to hear what building is in front of you.")
         utterance.voice = AVSpeechSynthesisVoice(language: "en-GB")
         utterance.rate = 0.6
@@ -68,4 +69,5 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
       return "No building detected"
     }
 }
+
 

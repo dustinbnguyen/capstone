@@ -46,6 +46,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     @IBAction func buttonTouched(_ sender: UIButton) {
+        //function about reading the building's name can be added here
         test.text = "touch"
     }
 }

@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreLocation
+import AVFoundation
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
@@ -22,8 +23,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var label4: UILabel!
     @IBOutlet weak var label5: UILabel!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -31,6 +30,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         locationManager?.delegate = self
         //request authorization for postitioning
         locationManager?.requestAlwaysAuthorization()
+        
+        let utterance = AVSpeechUtterance(string:"Touch on the screen anywhere to hear what building is in front of you.")
+        utterance.voice = AVSpeechSynthesisVoice(language: "en-GB")
+        utterance.rate = 0.6
+
+        let synthesizer = AVSpeechSynthesizer()
+        synthesizer.speak(utterance)
         
     }
     
@@ -54,6 +60,16 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         //accuracy between two headings
         label3.text = "Heading Accuracy：\(newHeading.headingAccuracy)"
         label4.text = "Timestamp：\(newHeading.timestamp)"
+    }
+    
+    
+    @IBAction func speakButtonPressed(_ sender: UIButton) {
+        let utterance = AVSpeechUtterance(string:"You are in front of Zachry Building")
+        utterance.voice = AVSpeechSynthesisVoice(language: "en-GB")
+        utterance.rate = 0.6
+
+        let synthesizer = AVSpeechSynthesizer()
+        synthesizer.speak(utterance)
     }
     
 }

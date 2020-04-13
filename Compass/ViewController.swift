@@ -13,10 +13,9 @@ import AVFoundation
 class ViewController: UIViewController, CLLocationManagerDelegate {
     var locationManager: CLLocationManager?
     @IBOutlet weak var textLabel: UILabel!
-    @IBOutlet weak var test: UILabel!
-
     @IBOutlet weak var startButton: UIButton!
-
+    @IBOutlet weak var textBuildingName: UILabel!
+    
     
     
     
@@ -54,14 +53,19 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     @IBAction func buttonTouched(_ sender: UIButton) {
         //function about reading the building's name can be added here
-        test.text = "touch"
         
-        let utterance = AVSpeechUtterance(string:"You are in front of Zachry Building")
+        textBuildingName.text = findBuilding()
+        
+        let utterance = AVSpeechUtterance(string:textBuildingName.text!)
         utterance.voice = AVSpeechSynthesisVoice(language: "en-GB")
         utterance.rate = 0.6
 
         let synthesizer = AVSpeechSynthesizer()
         synthesizer.speak(utterance)
+    }
+    
+    func findBuilding() -> String {
+      return "No building detected"
     }
 }
 

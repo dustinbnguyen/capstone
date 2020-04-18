@@ -28,7 +28,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         locationManager?.requestAlwaysAuthorization()
         
         //Speak when app starts
-        let utterance = AVSpeechUtterance(string:"Touch the middle of the screen to hear what building is in front of you.")
+        let utterance = AVSpeechUtterance(string:"Please be cautious while using this application and mind your surroundings before walking. Touch the middle of the screen to hear what building is in front of you.")
         utterance.voice = AVSpeechSynthesisVoice(language: "en-GB")
         utterance.rate = 0.6
 

@@ -66,7 +66,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     func findBuilding() -> String {
-      return "No building detected"
+        //ENTER BUILDING FINDING FUNCTION HERE
+        return "No building detected"
     }
 }
 

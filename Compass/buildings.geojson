@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zachery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.34020566940308,
+          30.62143303253175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cyclontron"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.34135365486145,
+          30.62033664124324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "James J Building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3408038020134,
+          30.619856533359066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Artie McFerrin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.34180426597595,
+          30.62089522530401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mitchell Physics Building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3423889875412,
+          30.620288168920705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blocker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.34207248687744,
+          30.6196210949688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dwight Look"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3399213552475,
+          30.620193532411474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "James J - 2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.3404068350792,
+          30.619653410075866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CE/TTI building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.33950293064116,
+          30.619978868767156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wisenbaker"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.33893966674803,
+          30.62080751397063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Civil Engineering Building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.33889943361281,
+          30.619731889576727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Harold Vance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.33933395147324,
+          30.61947336862764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+      "name": "Doherty Building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.33996695280074,
+          30.61924023753693
+        ]
+      }
+    }
+  ]
+}

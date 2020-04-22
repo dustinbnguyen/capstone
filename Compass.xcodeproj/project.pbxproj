@@ -14,6 +14,9 @@
 		84C7311B23FD89050083EEE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C7311923FD89050083EEE0 /* LaunchScreen.storyboard */; };
 		84C7312623FD89050083EEE0 /* CompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7312523FD89050083EEE0 /* CompassTests.swift */; };
 		84C7313123FD89050083EEE0 /* CompassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7313023FD89050083EEE0 /* CompassUITests.swift */; };
+		84D1BED4244D1F2B001E8564 /* Utterance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1BED3244D1F2B001E8564 /* Utterance.swift */; };
+		84D1BED6244F9638001E8564 /* StopScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1BED5244F9638001E8564 /* StopScreenViewController.swift */; };
+		84D1BED8244F9E25001E8564 /* buildings.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 84D1BED7244F9E25001E8564 /* buildings.geojson */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		84C7312C23FD89050083EEE0 /* CompassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84C7313023FD89050083EEE0 /* CompassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassUITests.swift; sourceTree = "<group>"; };
 		84C7313223FD89050083EEE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D1BED3244D1F2B001E8564 /* Utterance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utterance.swift; sourceTree = "<group>"; };
+		84D1BED5244F9638001E8564 /* StopScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopScreenViewController.swift; sourceTree = "<group>"; };
+		84D1BED7244F9E25001E8564 /* buildings.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = buildings.geojson; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +106,13 @@
 			children = (
 				84C7311023FD88FC0083EEE0 /* AppDelegate.swift */,
 				84C7311223FD88FC0083EEE0 /* ViewController.swift */,
+				84D1BED5244F9638001E8564 /* StopScreenViewController.swift */,
 				84C7311423FD88FC0083EEE0 /* Main.storyboard */,
 				84C7311723FD89050083EEE0 /* Assets.xcassets */,
 				84C7311923FD89050083EEE0 /* LaunchScreen.storyboard */,
 				84C7311C23FD89050083EEE0 /* Info.plist */,
+				84D1BED3244D1F2B001E8564 /* Utterance.swift */,
+				84D1BED7244F9E25001E8564 /* buildings.geojson */,
 			);
 			path = Compass;
 			sourceTree = "<group>";
@@ -231,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84C7311B23FD89050083EEE0 /* LaunchScreen.storyboard in Resources */,
+				84D1BED8244F9E25001E8564 /* buildings.geojson in Resources */,
 				84C7311823FD89050083EEE0 /* Assets.xcassets in Resources */,
 				84C7311623FD88FC0083EEE0 /* Main.storyboard in Resources */,
 			);
@@ -257,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D1BED4244D1F2B001E8564 /* Utterance.swift in Sources */,
 				84C7311323FD88FC0083EEE0 /* ViewController.swift in Sources */,
+				84D1BED6244F9638001E8564 /* StopScreenViewController.swift in Sources */,
 				84C7311123FD88FC0083EEE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -261,8 +261,18 @@ class StopScreenViewController: UIViewController, CLLocationManagerDelegate{
     }
     
 
+    var BuildingNameFoundLast: String = "No building found";
     
     func stopFinding(){
+        
+
+        let utterance = AVSpeechUtterance(string: BuildingNameFoundLast)
+                utterance.voice = AVSpeechSynthesisVoice(language: "en-GB")
+                utterance.rate = 0.6
+        
+                let synthesizer = AVSpeechSynthesizer()
+                synthesizer.speak(utterance)
+        
         isNavigating = false
     }
     
@@ -277,9 +287,12 @@ class StopScreenViewController: UIViewController, CLLocationManagerDelegate{
                 if self.foundBuilding{
                     self.buildingNames.isHidden = false
                     self.buildingNames.text = buildingNameStr
+                    self.BuildingNameFoundLast = buildingNameStr
+                    
                 }else{
                     self.buildingNames.isHidden = true
                     self.PromptText.text = "No building found"
+                    self.BuildingNameFoundLast = "No building found"
                     
                     
                 }

@@ -22,17 +22,17 @@ Assisted Implementing the user interface
 Tested application around campus
 
 * Keqing Guan:
-Responsible for User Interface design
-Did research about applications for visually impaired people
-Applied functionality to the UI
+** Responsible for User Interface design
+** Did research about applications for visually impaired people
+** Applied functionality to the UI
 
 * Dustin Nguyen:
-Team leader
-Responsible for Aggie Map data
-Gathered building geolocations
+** Team leader
+** Responsible for Aggie Map data
+** Gathered building geolocations
 
 * Daniel Le:
-Responsible for speech audio system
-Added caution warning to application
-Researched accessibility for mobile apps
+** Responsible for speech audio system
+** Added caution warning to application
+** Researched accessibility for mobile apps
 

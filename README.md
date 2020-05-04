@@ -8,7 +8,7 @@ Installation:
 * Download Xcode 11.4.1
 * Update iOS device to at least iOS 12.2
 * Change Bundle Identifier to "com.name.Compass"
-* Find development team and change it to “<Name> (Personal Team)”
+* Find development team and change it to “Name (Personal Team)”
 * Plug in iOS device
 * Run project
 

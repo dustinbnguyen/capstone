@@ -13,3 +13,26 @@ Installation:
 * Run project
 
 Usage: Once installed, you will hear or see the caution warning upon opening the app. Agree to the terms and you may now begin the app. Clicking the button will start the functionality and building finding algorithm. Place phone in front of where you want to find a building. Press stop to hear the building name and stop the algorithm.
+
+Contributions:
+
+* Tianhong Qiu:
+Responsible for building finding algorithm
+Assisted Implementing the user interface
+Tested application around campus
+
+* Keqing Guan:
+Responsible for User Interface design
+Did research about applications for visually impaired people
+Applied functionality to the UI
+
+* Dustin Nguyen:
+Team leader
+Responsible for Aggie Map data
+Gathered building geolocations
+
+* Daniel Le:
+Responsible for speech audio system
+Added caution warning to application
+Researched accessibility for mobile apps
+

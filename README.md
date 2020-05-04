@@ -12,10 +12,4 @@ Installation:
 * Plug in iOS device
 * Run project
 
-Usage: Once installed
-
-Contributing: Larger projects often have sections on contributing to their project, in which contribution instructions are outlined. Sometimes, this is a separate file. If you have specific contribution preferences, explain them so that other developers know how to best contribute to your work. To learn more about how to help others contribute, check out the guide for setting guidelines for repository contributors.
-
-Credits: Include a section for credits in order to highlight and link to the authors of your project.
-
-License: Finally, include a section for the license of your project. For more information on choosing a license, check out GitHub’s licensing guide!
+Usage: Once installed, you will hear or see the caution warning upon opening the app. Agree to the terms and you may now begin the app. Clicking the button will start the functionality and building finding algorithm. Place phone in front of where you want to find a building. Press stop to hear the building name and stop the algorithm.

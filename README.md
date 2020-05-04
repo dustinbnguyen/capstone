@@ -22,9 +22,9 @@ Assisted Implementing the user interface
 Tested application around campus
 
 * Keqing Guan:
-** Responsible for User Interface design
-** Did research about applications for visually impaired people
-** Applied functionality to the UI
+  * Responsible for User Interface design
+  * Did research about applications for visually impaired people
+  * Applied functionality to the UI
 
 * Dustin Nguyen:
 ** Team leader

@@ -17,9 +17,9 @@ Usage: Once installed, you will hear or see the caution warning upon opening the
 Contributions:
 
 * Tianhong Qiu:
-Responsible for building finding algorithm
-Assisted Implementing the user interface
-Tested application around campus
+ * Responsible for building finding algorithm
+ * Assisted Implementing the user interface
+ * Tested application around campus
 
 * Keqing Guan:
   * Responsible for User Interface design
@@ -27,12 +27,12 @@ Tested application around campus
   * Applied functionality to the UI
 
 * Dustin Nguyen:
-** Team leader
-** Responsible for Aggie Map data
-** Gathered building geolocations
+ * Team leader
+ * Responsible for Aggie Map data
+ * Gathered building geolocations
 
 * Daniel Le:
-** Responsible for speech audio system
-** Added caution warning to application
-** Researched accessibility for mobile apps
+ * Responsible for speech audio system
+ * Added caution warning to application
+ * Researched accessibility for mobile apps
 

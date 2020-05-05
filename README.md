@@ -14,7 +14,7 @@ Installation:
 
 Usage: Once installed, you will hear or see the caution warning upon opening the app. Agree to the terms and you may now begin the app. Clicking the button will start the functionality and building finding algorithm. Place phone in front of where you want to find a building. Press stop to hear the building name and stop the algorithm.
 
-![Image description](https://imgur.com/a/De9Xbo3)
+![Image description](https://imgur.com/shjhTxR)
 
 Contributions:
 
